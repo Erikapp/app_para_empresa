@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmpresaActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="137dp"
+        android:layout_height="116dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/detalhe_empresa" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="36dp"
+        android:layout_marginTop="53dp"
+        android:text="Sobre a empresa"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="123dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="10dp"
+                android:text="Somos uma empresa de consultoria. Somos uma empresa de consultoria.
+        Somos uma empresa de consultoria. Somos uma empresa de consultoria. Somos uma empresa de consultoria.
+        Somos uma empresa de consultoria. Somos uma empresa de consultoria. Somos uma empresa de consultoria.
+        Somos uma empresa de consultoria. Somos uma empresa de consultoria. Somos uma empresa de consultoria.
+        Somos uma empresa de consultoria. Somos uma empresa de consultoria. Somos uma empresa de consultoria.
+        Somos uma empresa de consultoria. Somos uma empresa de consultoria. Somos uma empresa de consultoria.
+        Somos uma empresa de consultoria. Somos uma empresa de consultoria. Somos uma empresa de consultoria.
+        Somos uma empresa de consultoria. Somos uma empresa de consultoria. Somos uma empresa de consultoria.
+        Somos uma empresa de consultoria. Somos uma empresa de consultoria. Somos uma empresa de consultoria.
+        Somos uma empresa de consultoria. Somos uma empresa de consultoria. Somos uma empresa de consultoria.
+        Somos uma empresa de consultoria. Somos uma empresa de consultoria. Somos uma empresa de consultoria.
+        Somos uma empresa de consultoria. Somos uma empresa de consultoria. Somos uma empresa de consultoria.
+        Somos uma empresa de consultoria. Somos uma empresa de consultoria. Somos uma empresa de consultoria.
+        Somos uma empresa de consultoria. Somos uma empresa de consultoria. Somos uma empresa de consultoria.
+        Somos uma empresa de consultoria. Somos uma empresa de consultoria. Somos uma empresa de consultoria.
+        Somos uma empresa de consultoria. Somos uma empresa de consultoria. Somos uma empresa de consultoria.
+        Somos uma empresa de consultoria. Somos uma empresa de consultoria. Somos uma empresa de consultoria.
+        Somos uma empresa de consultoria. Somos uma empresa de consultoria. Somos uma empresa de consultoria.
+        Somos uma empresa de consultoria. Somos uma empresa de consultoria. Somos uma empresa de consultoria.
+        Somos uma empresa de consultoria. Somos uma empresa de consultoria. Somos uma empresa de consultoria. "
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
